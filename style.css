@@ -56,6 +56,7 @@ h2{
     border: none;
     width: 40%;
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.097);
+    
 }
 .flex-numbers{
     display: flex;
@@ -218,8 +219,7 @@ p{
     }
     .get-btn{
         font-size: 0.8rem;
-        width: clamp(80%, 90%, 90%);
-        
+        width: clamp( 200px, 60vw, 30%);    
     }
     .numbers-div{
         flex-direction: column;
@@ -257,7 +257,7 @@ p{
         grid-area: flow-pic;
     }
     .get-btn-2{
-        width: 50%;
+        width: clamp(200px, 30%, 40%);
     }
     .footer-div{
         display: grid;
@@ -284,7 +284,7 @@ p{
         padding: 0.7rem 2rem 0.7rem 2rem;
         /* margin-left: 10rem; */
         border-radius: 0.5rem;
-        width: 60%;
+        width: clamp(200px, 60vw, 40vw);
     }
     form{
         text-align: right;
@@ -298,6 +298,9 @@ p{
     .section-img{
         margin-bottom: -7px;
     }
-   
+    .build{
+        width: 100%;
+        padding: 1rem;
+    }
 }
 
