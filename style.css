@@ -14,7 +14,6 @@ body{
     line-height: 1.5rem;
     max-width: 1440px;
     margin: 0 auto;
-    /* font-family: 'Poppins', sans-serif; */
 }
 :root{
     --Pink: hsl(322, 100%, 66%);
@@ -24,7 +23,6 @@ body{
     --Very-Pale-Blue: hsl(207, 100%, 98%);
 }
 .header{
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -55,9 +53,18 @@ h2{
     margin: 1.5rem;
     border: none;
     width: 40%;
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.097);
-    
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.097);   
 }
+.get-btn:hover{
+    background: var(--Light-Pink);
+}
+.subs-btn:hover{
+    background: var(--Light-Pink);
+}
+.get-btn-2:hover{
+    background: var(--Light-Pink);
+}
+
 .flex-numbers{
     display: flex;
     flex-direction: column;
@@ -203,8 +210,18 @@ h3, .number, .logo-huddle-footer{
 p{
     font-family: 'Open Sans', sans-serif;     
 }
+
 .icons{
     width: 25px;
+    color: white;
+    cursor: pointer;
+}
+.icons:hover{
+    color: skyblue;
+}
+/* active-states */
+button{
+    cursor: pointer;
 }
 .attribution {
   font-size: 11px;
